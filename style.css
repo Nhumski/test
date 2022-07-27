@@ -1,0 +1,33 @@
+input[type=text], input[type=tel], input[type=email], select, textarea{
+  font-family: inherit;
+  font-size: 16px;
+  width: 70%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: none; 
+  border-bottom: 1px solid rgb(210, 174, 86); /* Gray border */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  margin-left: 50px;
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  outline: none;
+}
+
+input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, select:focus, textarea:focus{
+  border-color: rgb(5, 73, 76);
+}
+
+input[type=submit] {
+  background-color: transparent;
+  color: rgb(210, 174, 86);
+  margin-top: 20px;
+  padding: 12px 20px;
+  border: 1px solid rgb(210, 174, 86);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+input[type=submit]:hover{
+  color: white;
+  background-color: rgb(210, 174, 86);
+}
